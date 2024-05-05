@@ -1,0 +1,238 @@
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav ul li a:hover {
+  color: #666;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}
+
+
+.activities-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.activity-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: calc(33.33% - 20px); 
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.activity-card h3 {
+  margin-top: 0;
+}
+
+.activity-card p {
+  margin-bottom: 0;
+}
+
+
+
+
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filter-container select,
+.filter-container input[type="text"] {
+  margin-right: 10px;
+  padding: 8px;
+}
+
+.filter-container button {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-container button:hover {
+  background-color: #0056b3;
+}
+
+
+.volunteers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.volunteer-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+  max-width: 400px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.volunteer-card h3 {
+  margin-top: 0;
+}
+
+.volunteer-card p {
+  margin-bottom: 5px;
+}
+
+
+.edit-controls {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+  max-width: 400px;
+  background-color: #f0f0f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.edit-controls input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+}
+
+.edit-controls button {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-controls button:hover {
+  background-color: #0056b3;
+}
+
+
+.add-controls {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+  max-width: 400px;
+  background-color: #f0f0f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-controls input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+}
+
+.add-controls button {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-controls button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.organizations-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.organization-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+  max-width: 400px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.organization-card h3 {
+  margin-top: 0;
+}
+
+.organization-card p {
+  margin-bottom: 5px;
+}
+
+
+.add-organization-controls {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+  max-width: 400px;
+  background-color: #f0f0f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-organization-controls input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+}
+
+.add-organization-controls button {
+  margin-top: 10px; 
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-organization-controls button:hover {
+  background-color: #0056b3;
+}
